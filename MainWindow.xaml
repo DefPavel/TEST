@@ -13,6 +13,7 @@
             VerticalAlignment="Center">
             <TextBox
                 x:Name="CurrentVersionTextBox"/>
+            <Button Content="Vers"/>
             <Button Click="CheckForUpdatesButton_Click" Content="Check"/>
             <Button Click="UpdateButton_Click" x:Name="UpdateButton" Content="Update"/>
         </StackPanel>
